@@ -1,0 +1,211 @@
+html {
+  font: 100%/1.15 sans-serif;
+  background:#006400;
+}
+
+/* nate shut off
+h1 {
+text-align: center;
+text-decoration: none;
+font-size: 8em;
+background:#228B22;
+/* overflow-x: hidden; */
+/* 
+}
+ */
+
+
+h3 {
+padding-top: .3em;
+padding-bottom: .3em;
+text-align: center;
+text-decoration: ;
+font-size: 1em;
+background:#228B22;
+}
+
+h5 {
+text-align: center;
+}
+
+.banner {
+
+}
+
+.bot {
+font-size: 1em;
+text-align: left;
+text
+
+}
+
+/* 
+#col {
+column-count: 3;
+text-align: left;
+padding-top: 1em;
+padding-left: 2em;
+padding-right: 2em;
+padding-bottom: 1em
+}
+ */
+ 
+body {
+	margin: 0;
+  font-family: Verdana, serif;
+  color: #F0FFF0;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
+p {
+text-align: center;
+}
+
+
+
+
+/* 
+p {
+padding-top: 2em;
+padding-left: 2em;
+padding-right: 2em;
+padding-bottom: 2em;
+}
+
+ */
+
+
+/* navigation */
+
+
+/* 
+****nate turned off****
+nav ul {
+text-align: center;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  padding-bottom: 3em;
+  }
+  
+/* 
+nav li {
+  padding-bottom: .5em;
+  border-bottom: 1px dashed white;
+  margin-top: .5em;
+  }
+  
+nav li:first-child {
+  padding-top: .5em;
+  border-top: 1px dashed red;
+  }
+ */
+  
+  
+
+/* 
+nav a {
+
+  color:white;
+  text-decoration: none;
+  border-bottom: 1px dotted white;
+}
+
+nav a:hover {
+  border-bottom: white;
+}
+***********************
+ 
+ */
+
+
+
+
+
+
+/* NATE NOTES */
+/* framework */
+.margin{
+	width: 90%;
+	max-width: 60em;
+	margin: 0 auto;
+	}
+#banner{
+		background:#228B22;
+
+	}
+h1{
+	text-align: center;
+	text-decoration: none;
+	font-size: 8em;
+	padding:0;
+	margin: 0;
+	border: 0;
+	}
+h3{
+	padding: 1em;
+	}
+/* navigation */
+
+nav {
+	background-color: #006400;
+	}
+nav ul{
+	margin: 0;
+	list-style: none;
+	padding: 1em 0;
+	text-align: center;
+	}
+nav a {
+
+  color:white;
+  text-decoration: none;
+  
+	}
+
+nav a:hover {
+	border-bottom: 1px dotted white;
+	}
+btm{
+	text-align: center;
+	}
+/* end of notes */
+
+
+
+
+
+
+
+
+/* breakpoints/layout changes/ for wider screens */
+
+@media (min-width: 48em) {
+
+nav ul {
+  /* text-align: center; */
+  }
+
+nav li {
+  display: inline;
+  margin-left: .5em;
+}
+
+nav li:first-child {
+  margin-left: 0;
+}
+	
+}
