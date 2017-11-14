@@ -1,6 +1,8 @@
 html {
   font: 100%/1.15 sans-serif;
   background:#006400;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; 
 }
 
 /* nate shut off
@@ -22,6 +24,11 @@ text-align: center;
 text-decoration: ;
 font-size: 1em;
 background:#228B22;
+}
+
+h4 {
+font-size: 1em;
+text-align: center;
 }
 
 h5 {
